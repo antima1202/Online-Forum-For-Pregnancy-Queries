@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
 body{
-  background: #316B83;
+  background-color: #316B83;
   font-family: 'Arimo', sans-serif;
 }
 h2{
   color:#000;
   text-align:center;
   font-size:2em;
+ 
+}
+
+h6{
+  color:#000;
+  text-align:center;
+  font-size: 0.9rem;
 }
 .warpper{
   display:flex;
@@ -91,4 +98,16 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #457488;
+}
+
+#floatingTextarea2{
+  height: 100px;
+}
+
+.blog {
+  border-bottom: 6px solid #316B83;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
 }
